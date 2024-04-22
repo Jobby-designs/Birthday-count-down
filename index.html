@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIRTHDAY COUNTDOWN</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navBar">
+      <div class="navBarOne">
+        <p>Service</p>
+        <p>Cases</p>
+      </div>
+      <div class="navBarTwo">
+        <p>Blog</p>
+
+        <button type="button">Update App</button>
+      </div>
+    </div>
+    <div class="heading">
+      <p>BirthdayTickDown</p>
+      <h1>
+        Countdown to the Big Day,<br />
+        Join Us in Celebrating Your Birthday
+      </h1>
+    </div>
+    <div class="popUpDiv">
+      <div class="popUp open-popUp" id="popUp">
+        <h1>congratulations</h1>
+        <h2>Happy Birthday</h2>
+        
+        <button type="button" id="closePopUp" onclick="closeBtn()">ok</button>
+      </div>
+    </div>
+    <div class="input">
+      <input id="inputOne" type="date" />
+      <button class="btn" id="btn1" onclick="startCountdown()" type="button">
+        Start
+      </button>
+    </div>
+    <div class="display">
+      <h1 id="countdown" style="color: white"></h1>
+    </div>
+    <div class="socialMedia"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
