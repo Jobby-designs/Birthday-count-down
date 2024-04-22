@@ -13,7 +13,7 @@ function startCountdown() {
   // Get the target date from the input
   const targetDateInput = document.getElementById("inputOne").value;
   // const targetDate = new Date(targetDateInput).getTime();
-  const targetDate = new Date("2024-04-22T21:46:00").getTime();
+  const targetDate = new Date("2024-04-22T22:20:00").getTime();
 
   // Update the countdown every second
   const countdown = setInterval(function () {
